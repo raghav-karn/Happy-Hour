@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Happy Hour App - How about a drink!?">
+		<meta name="keywords" content="happy hour, drink, beers">
+
+		<title>Happy Hour</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script>
+		
+			// Our List of Bars
+			var bars = [
+				'Siggys',
+				'Blind Tiger',
+				'Zum Schneider',
+				'One Month',
+				'Home Sweet Home',
+				'Union Pool'
+			];
+
+			// Our List of Friends
+			var friends = [
+				'Mattan',
+				'Chris',
+				'Lee',
+				'Casey',
+				'Ashutosh',
+				'Kayne West'
+			];
+
+			var randomNumber = Math.floor(Math.random()*bars.length);
+			
+			var barname = bars[randomNumber];
+			var friendname = friends[randomNumber];
+
+			document.write("How about you go to <strong>" + barname + "</strong> with <strong>" + friendname + "</strong>?");
+
+			/*
+			
+			1. document.write(randomNumber); will print any random number from 0 to anywhere.
+
+			2.(iii) It prints "One Month" only with the other stuff.
+
+			(iv) It prints 6 at the end. 
+			
+			(v) It writes Undifined at the place of friends and bars.
+
+			6. Math function is used for math equations and all those mathy stuff.
+
+			7. i've added one friend... 
+
+			*/
+
+		
+		</script>
+	</head>
+	<body>
+		<!-- PAGE CONTENT WILL BE PRINTED HERE --> 
+	</body>
+</html>
